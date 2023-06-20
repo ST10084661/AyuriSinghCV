@@ -300,7 +300,7 @@ ul {
   }
   
   ul > li::before {
-    content: "*";
+    content: "##";
     transform: scale(0.2);
     display: inline-block;
     animation: pulse infinite alternate 0.9s;
@@ -389,10 +389,10 @@ ul {
   color: white; /* White text color */
 }
 
-.C {width: 90%; background-color: #4fd3fcbe;} /* Green */
-.JAVA {width: 80%; background-color: #e082d4c4;} /* Blue */
-.CSS {width: 80%; background-color: #4fd3fcbe;} /* Red */
-.HTML {width: 80%; background-color: #e082d4c4;} /* Dark Grey */
+.C {width: 90%; background-color: #a8dae9be;} /* Green */
+.JAVA {width: 80%; background-color: #b99cb6c4;} /* Blue */
+.CSS {width: 80%; background-color: #b9dfcfbe;} /* Red */
+.HTML {width: 80%; background-color: #e0c4bbc4;} /* Dark Grey */
 
 .divcontainer{
   display: grid;
